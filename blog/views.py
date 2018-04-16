@@ -12,3 +12,6 @@ def home_page(request):
         return render(request, 'blog/home_page.html', {'comment': comment_obj,})
     return render(request, 'blog/home_page.html')
   
+
+def index(request):
+    return render(request, 'blog/index.html')
